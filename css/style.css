@@ -170,6 +170,10 @@ body, html {
         padding-right: 16px;
     }
 
+    .links a {
+        margin-left: 16px;
+    }
+
     .logo {
         width: 64px;
     }
