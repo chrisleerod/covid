@@ -58,6 +58,7 @@ body, html {
 
 .cta {
     display: flex;
+    flex-wrap: wrap;
     margin-top: 32px;
 }
 
@@ -104,6 +105,7 @@ body, html {
 }
 
 .relevant-links-container h1 {
+    margin: 0px;
     margin-bottom: 64px;
 }
 
@@ -156,4 +158,44 @@ body, html {
 
 .link a:hover .arrow {
     transform: translateX(8px);
+}
+
+@media only screen and (max-width: 992px) {
+
+}
+
+@media only screen and (max-width: 768px) { 
+    .nav {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .logo {
+        width: 64px;
+    }
+
+    .content {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .header {
+        margin-top: 64px;
+    }
+
+    .header h1 {
+        font-size: 42px;
+    }
+
+    .faq-link {
+        margin-bottom: 16px;
+    }
+
+    .relevant-links-container {
+        margin-top: 64px;
+    }
+
+    .relevant-links-container h1 {
+        margin-bottom: 32px;
+    }
 }
