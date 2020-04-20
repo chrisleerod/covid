@@ -106,7 +106,7 @@ body, html {
 
 .relevant-links-container h1 {
     margin: 0px;
-    margin-bottom: 64px;
+    margin-bottom: 32px;
 }
 
 .relevant-links {
@@ -160,45 +160,79 @@ body, html {
     transform: translateX(8px);
 }
 
-@media only screen and (max-width: 992px) {
-
+.mayor-container {
+    margin-bottom: 128px;
 }
 
-@media only screen and (max-width: 768px) { 
+.mayor-container h1 {
+    margin: 0px;
+    margin-bottom: 32px;
+}
+
+.mayor {
+    display: flex;
+}
+
+.profile-pic img {
+    max-width: 500px;
+    width: 100%;
+}
+
+.mayor-p p {
+    line-height: 1.5em;
+    margin: 0px;
+    padding-left: 32px;
+    max-width: 732px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+@media only screen and (max-width: 992px) {
+    .mayor {
+        flex-direction: column;
+    }
+    .profile-pic img {
+        margin-right: 0px;
+        margin-bottom: 32px;
+        max-width: 100%;
+    }
+    .mayor-p p {
+        padding-left: 0px;
+        max-width: 100%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #chart {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
     .nav {
         padding-left: 16px;
         padding-right: 16px;
     }
-
     .links a {
         margin-left: 16px;
     }
-
     .logo {
         width: 64px;
     }
-
     .content {
         padding-left: 16px;
         padding-right: 16px;
     }
-
     .header {
         margin-top: 64px;
     }
-
     .header h1 {
         font-size: 42px;
     }
-
     .faq-link {
         margin-bottom: 16px;
     }
-
     .relevant-links-container {
         margin-top: 64px;
+        margin-bottom: 64px;
     }
-
     .relevant-links-container h1 {
         margin-bottom: 32px;
     }
