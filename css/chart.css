@@ -1,7 +1,7 @@
 #chart {
     max-width: 1264px;
     margin: 0 auto;
-    margin-top: 64px;
+    margin-bottom: 128px;
 }
 
 #chart, .chart-box {

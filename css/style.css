@@ -60,6 +60,7 @@ body, html {
     display: flex;
     flex-wrap: wrap;
     margin-top: 32px;
+    margin-bottom: 128px;
 }
 
 .cta a {
@@ -129,7 +130,7 @@ body, html {
 
 .link {
     max-width: 550px;
-    height: 125px;
+    height: 150px;
     width: 100%;
     padding: 16px;
     display: flex;
@@ -158,10 +159,6 @@ body, html {
 
 .link a:hover .arrow {
     transform: translateX(8px);
-}
-
-.mayor-container {
-    margin-bottom: 128px;
 }
 
 .mayor-container h1 {
@@ -221,6 +218,9 @@ body, html {
     }
     .header h1 {
         font-size: 42px;
+    }
+    .cta {
+        margin-bottom: 64px;
     }
     .faq-link {
         margin-bottom: 16px;
