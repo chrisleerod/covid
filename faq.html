@@ -1,11 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>FAQ</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/faq.css">
+    <link rel="stylesheet" href="css/accordion.css">
 </head>
+
 <body>
-    
+
+    <div class="nav">
+        <a href="index.html">
+            <div class="logo-container">
+                <img class="logo" src="logo.png" alt="">
+            </div>
+        </a>
+        <div class="links">
+            <a href="index.html">HOME</a>
+            <a href="">INFORMATION</a>
+            <a href="faq.html">FAQ</a>
+        </div>
+    </div>
+
+    <div class="content-container">
+        <div class="title">
+            <h1>
+                FAQs
+            </h1>
+        </div>
+
+        <div class="accordion-container">
+            <div class="ac">
+                <h2 class="ac-q" tabindex="0">What is the novel coronavirus COVID-19?</h2>
+                <div class="ac-a">
+                    <p>A coronavirus is a virus that is common among people and animals.
+                        <br>
+                        <br>
+                        The coronavirus you are hearing about — COVID-19 — is a respiratory illness that can spread from
+                        person to person. It was first discovered in China in late 2019.
+                    </p>
+                </div>
+            </div>
+
+            <div class="ac">
+                <h2 class="ac-q" tabindex="0">How serious is COVID-19?</h2>
+                <div class="ac-a">
+                    <p>The severity of the illness varies from person to person.
+                        <br>
+                        <br>
+                        For many people, the virus will not lead to any serious complications or hospitalization, but
+                        some cases can lead to pneumonia or even acute respiratory distress syndrome (ARDS), which
+                        requires a patient to be put on a ventilator with oxygen. If the lungs are damaged and
+                        insufficient oxygen reaches the rest of the body, respiratory failure can lead to organ failure
+                        and death.
+                        <br>
+                        <br>
+                        People with compromised immune systems or underlying medical conditions (such as heart disease,
+                        liver disease, diabetes, or respiratory illness) and those older than 60 are most at risk of
+                        serious infection.</p>
+                </div>
+            </div>
+
+            <div class="ac">
+                <h2 class="ac-q" tabindex="0">How is COVID-19 spread?</h2>
+                <div class="ac-a">
+                    <p>The virus is spread mainly from person-to-person contact – like shaking hands – and through
+                        respiratory droplets produced when someone with the virus sneezes or coughs.
+                        <br>
+                        <br>
+                        The virus can remain on objects or surfaces touched by someone with COVID-19. If you touch a
+                        contaminated object or surface and then touch your mouth, nose or eyes, the virus can spread to
+                        you.
+                        <br>
+                        <br>
+                        Most early cases of COVID-19 in the United States were associated with travel in countries where
+                        the virus was more prevalent. Increasingly, however, the virus is “community-acquired” — caught
+                        through close contact with someone who tested positive for COVID-19.</p>
+                </div>
+            </div>
+
+            <div class="ac">
+                <h2 class="ac-q" tabindex="0">Are pregnant women at higher risk?</h2>
+                <div class="ac-a">
+                    <p>We do not have enough information to state definitively whether pregnant women are at increased
+                        risk of contracting COVID-19 or experiencing more severe illness as a result of COVID-19.
+                        Pregnant women should take usual preventive actions to avoid infection.</p>
+                </div>
+            </div>
+
+            <div class="ac">
+                <h2 class="ac-q" tabindex="0">Are children at higher risk?</h2>
+                <div class="ac-a">
+                    <p>Current information suggests that children are at lower risk for serious illness from COVID-19
+                        than the general population. However, children could inadvertently pass the virus to others,
+                        including older adults and people with long-term medical conditions.</p>
+                </div>
+            </div>
+
+            <div class="ac">
+                <h2 class="ac-q" tabindex="0">Is my pet at risk?</h2>
+                <div class="ac-a">
+                    <p>There is no evidence that a dog, cat or any pet can transmit COVID-19. People with pets and
+                        people who work with animals should engage in usual preventive actions to avoid infection, like
+                        hand washing and respiratory hygiene.</p>
+                </div>
+            </div>
+
+            <div class="ac">
+                <h2 class="ac-q" tabindex="0">Can I drink the water in Nashville?</h2>
+                <div class="ac-a">
+                    <p>Yes, the water in Nashville is safe to drink. It is not impacted by COVID-19.</p>
+                </div>
+            </div>
+
+            <div class="ac">
+                <h2 class="ac-q" tabindex="0">Can the COVID-19 virus spread through drinking water?</h2>
+                <div class="ac-a">
+                    <p>The COVID-19 virus has not been detected in drinking water. Conventional water treatment methods
+                        that use filtration and disinfection, such as those in most municipal drinking water systems,
+                        should remove or inactivate the virus that causes COVID-19.</p>
+                </div>
+            </div>
+
+            <div class="bottom-line">
+                <h1>
+                    The Bottom Line
+                </h1>
+                <p>We want all of the citizens of Nashville to be safe during these uncertain times. We encourage
+                    that if your questions aren't answered above to use your better judgement and stay isolated.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/accordion.min.js"></script>
+
+    <script>
+        new Accordion('.accordion-container'); 
+    </script>
+
 </body>
+
 </html>
